@@ -303,6 +303,14 @@ module.exports = LANGUAGES =
     ignorePrefix:      '}'
     foldPrefix:        '^'
 
+  Solidity:
+    nameMatchers:      ['.sol']
+    pygmentsLexer:     'javascript'
+    multiLineComment:  ['/*', '*', '*/']
+    singleLineComment: ['//']
+    ignorePrefix:      '}'
+    foldPrefix:        '^'
+
   SQL:
     nameMatchers:      ['.sql']
     pygmentsLexer:     'sql'
